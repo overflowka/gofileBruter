@@ -76,6 +76,7 @@ namespace gofileBruter
                 {
                     // in case of an exception, wait 1.5 seconds before continuing
                     await Task.Delay(1500);
+                    continue;
                 }
             }
         }
